@@ -1,0 +1,14 @@
+{
+  "name": "typescript",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "@webcomponents/webcomponentsjs": "^2.7.0",
+    "bootstrap": "^5.2.2",
+    "echarts": "^5.4.0",
+    "lit": "^2.4.1",
+    "lit-element": "^3.2.2",
+    "lit/decorators": "*"
+  }
+}
