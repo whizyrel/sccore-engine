@@ -26,28 +26,51 @@ import * as echarts from 'echarts';
 const formatLength = 8760;
 const threshold = 5000;
 const payload: ScalePayload[] = [
+  // {
+  //   type: 'hour',
+  //   target: 712,
+  //   factor: 0.5,
+  // },
+  // {
+  //   type: 'hour',
+  //   value: 5,
+  //   factor: 0.5,
+  // },
+  // {
+  //   type: 'hour',
+  //   from: 12,
+  //   to: 14,
+  //   factor: 0.75,
+  // },
+  // {
+  //   type: 'hour',
+  //   recurrent: true,
+  //   from: 21,
+  //   to: 23,
+  //   factor: 0.1,
+  // },
+  // {
+  //   type: 'day',
+  //   target: 5,
+  //   factor: 0.1,
+  // },
+  // {
+  //   type: 'day',
+  //   value: 5,
+  //   factor: 0.25,
+  // },
+  // {
+  //   type: 'day',
+  //   from: 1,
+  //   to: 2,
+  //   factor: 0.25,
+  // },
   {
-    type: 'hour',
-    target: 712,
-    factor: 0.5,
-  },
-  {
-    type: 'hour',
-    value: 5,
-    factor: 0.5,
-  },
-  {
-    type: 'hour',
-    from: 12,
-    to: 14,
-    factor: 0.75,
-  },
-  {
-    type: 'hour',
+    type: 'day',
     recurrent: true,
-    from: 21,
-    to: 23,
-    factor: 0.1,
+    from: 3,
+    to: 7,
+    factor: 0.25,
   },
 ];
 
